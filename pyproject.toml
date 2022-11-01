@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "dimatech-test"
+version = "0.1.0"
+description = ""
+authors = ["Yegor Gusak <ierence.common@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sanic = "^22.9.0"
+SQLAlchemy = "^1.4.42"
+alembic = "^1.8.1"
+pydantic = "^1.10.2"
+sanic-ext = "^22.9.0"
+PyJWT = "^2.6.0"
+Sanic-HTTPAuth = "^0.2.0"
+pycryptodome = "^3.15.0"
+sanic-testing = "^22.9.0"
+asyncpg = "^0.27.0"
+psycopg2-binary = "^2.9.5"
+autopep8 = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
