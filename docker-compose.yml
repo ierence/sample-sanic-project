@@ -2,8 +2,7 @@ version: '3.2'
 
 services:
   db:
-    image: postgres:13
-    container_name: dimatech_db
+    image: postgres:15
     ports:
       - "5432:5432"
     volumes:
